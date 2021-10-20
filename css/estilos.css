@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cookie';
+    text-align: justify;
+}
+
+.primer .costura {
+    display: flex;
+    background-color: rgb(80, 90, 200);
+}
+
+.primer .costura ul {
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.primer .costura ul li {
+    display: inline-block;
+}
+
+.primer .costura ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: fantasy;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.primer {
+    background-color: rgb(96, 87, 201);
+}
+
+.primer .secundario div img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50px;
+    flex: 1;
+}
+
+.primer .secundario {
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    padding: 70px;
+    flex-wrap: wrap;
+    min-width: 350px;
+}
+
+.primer .secundario .medir {
+    flex: 2;
+    font-size: 55px;
+    padding: 80px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#zara{
+    background-color: rgb(111, 102, 243);
+}
+
+#zara .estilo{
+    padding: 50px;
+    display: flex;
+}
+
+#zara .estilo h2{
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-left: 500px;
+}
+
+#zara .estilo{
+    width: 100%;
+}
+
+#zara .reloj{
+    padding: 50px;
+    display: flex;
+}
+
+#zara .reloj .azul{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    float: left;
+    padding-right: 150px;
+}
+
+#zara .reloj .azul img{
+    border-radius: 50px;
+}
+
+#zara .reloj .morado p{
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#adidas{
+    background-color: rgb(121, 113, 243);
+}
+
+#adidas .zapatos{
+    padding-left: 50px;
+    display: flex;
+}
+
+#adidas .zapatos h2{
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-left: 460px;
+}
+
+#adidas .zapatos{
+    width: 100%;
+}
+
+#adidas .blusa{
+    padding: 50px;
+    display: flex;
+}
+
+#adidas .blusa .planta{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    float: left;
+    padding-right: 150px;
+}
+
+#adidas .blusa .planta img{
+    border-radius: 50px;
+}
+
+#adidas .blusa .mosca p{
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#lacoste{
+    background-color: rgb(129, 121, 240);
+}
+
+#lacoste .pendiente{
+    padding-left: 50px;
+    display: flex; 
+}
+
+#lacoste .pendiente h2{
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-left: 440px;
+}
+
+#lacoste .pendiente{
+    width: 100%;
+}
+
+#lacoste .fresa{
+    padding: 50px;
+    display: flex;
+}
+
+#lacoste .fresa .melon{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    float: left;
+    padding-right: 150px;
+}
+
+#lacoste .fresa .melon img{
+    border-radius: 30px;
+}
+
+#lacoste .fresa .piña p{
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#nike{
+    background-color: rgb(143, 136, 247);
+}
+
+#nike .gomas{
+    padding-left: 50px;
+    display: flex;
+}
+
+#nike .gomas h2{
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-left: 490px;
+}
+
+#nike .gomas{
+    width: 100%;
+}
+
+#nike .diseño{
+    padding: 50px;
+    display: flex;
+}
+
+#nike .diseño .uva{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    float: left;
+    padding-right: 150px;
+}
+
+#nike .diseño .uva img{
+    border-radius: 50px;
+}
+
+#nike .diseño .hombro p{
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#calvinklein{
+    background-color: rgb(154, 148, 238);
+}
+
+#calvinklein .ropa{
+    padding-left: 50px;
+    display: flex;
+}
+
+#calvinklein .ropa h2{
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-left: 400px;
+}
+
+#calvinklein .ropa{
+    width: 100%;
+}
+
+#calvinklein .nudo{
+    padding: 50px;
+    display: flex;
+}
+
+#calvinklein .nudo .vino{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    float: left;
+    padding-right: 150px;
+}
+
+#calvinklein .nudo .vino img{
+    border-radius: 20px;
+}
+
+#calvinklein .nudo .vaso p{
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#directorio{
+    background-color: rgb(164, 159, 226);
+}
+
+#directorio .directo{
+    padding-left: 50px;
+    display: flex;
+}
+
+#directorio .directo{
+    width: 100%;
+}
+
+#directorio .directo h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-left: 500px;
+}
+
+#directorio .luz{
+    padding: 40px;
+    display: flex;
+    padding-left: 540px;
+}
+
+footer{
+    background-color: rgb(174, 170, 232);
+}
+
+.moda {
+    width: 100%;
+}
+
+.moda div h3{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+@media only screen and (max-width: 1000px){
+
+    .primer .secundario .medir {
+        flex: 2;
+        font-size: 45px;
+        padding: 80px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    
+    #zara .reloj{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    #zara .estilo h2{
+        font-size: 60px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    #zara .reloj .morado{
+        padding-top: 50px;
+    }
+
+    #zara .reloj .azul{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        float: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #zara .reloj .azul img{
+        border-radius: 50px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+
+    #zara .reloj .morado p{
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    #adidas .blusa{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    #adidas .zapatos h2{
+        font-size: 60px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    #adidas .blusa .planta{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        float: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #adidas .blusa .mosca{
+        padding-top: 50px;
+    }
+
+    #adidas .blusa .planta img{
+        border-radius: 50px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+
+    #adidas .blusa .mosca p{
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    #lacoste .pendiente{
+        padding-left: 50px;
+    }
+
+    #lacoste .pendiente h2{
+        font-size: 60px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    #lacoste .fresa{
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    #lacoste .fresa .melon{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        float: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #lacoste .fresa .melon img{
+        border-radius: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+
+    #lacoste .fresa .piña p{
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+
+    #nike .gomas{
+        padding-left: 50px;
+    }
+
+    #nike .gomas h2{
+        font-size: 60px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    #nike .diseño{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    #nike .diseño .uva{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        float: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #nike .diseño .uva img{
+        border-radius: 50px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+
+    #nike .diseño .hombro p{
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+
+    #calvinklein .ropa{
+        padding-left: 50px;
+    }
+
+    #calvinklein .ropa h2{
+        font-size: 60px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    #calvinklein .nudo{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    #calvinklein .nudo .vino{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        float: left;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #calvinklein .nudo .vino img{
+        border-radius: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-left: 40px;
+    }
+
+    #calvinklein .nudo .vaso p{
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+
+    #directorio .directo{
+        padding-left: 50px;
+    }
+
+    #directorio .directo h2{
+        font-size: 40px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+
+    #directorio .luz{
+        padding: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+        padding-left: 100px;
+    }
+}
